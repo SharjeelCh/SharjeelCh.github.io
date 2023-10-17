@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, blue, green, red, yellow);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s linear infinite;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+/* Set a dark background for sections */
+section {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color for sections */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: 800% 800%;
+    }
+
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+.project {
+    text-align: center;
+    align-items:center;
+    
+}
+.project-content {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically within the container */
+    text-align: left; /* Adjust text alignment if necessary */
+    flex-direction: row;
+    
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    width: 200px; /* Adjust the width to your desired size */
+    margin-right: 10px; /* Add some spacing between the image and title */
+    margin-top: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+#about {
+    padding: 30px;
+    letter-spacing: 1.7px;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+#contact {
+    padding: 30px;
+    letter-spacing: 1.7px;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.ABOUTT{
+    margin-bottom: 15px;
+
+    
+}
+.CONTACTT{
+    margin-bottom: 15px;
+}
+.linkin{
+   display: flex;
+    
+}
+a {
+    color: rgb(129, 231, 85);
+    text-decoration: none;
+}
+
