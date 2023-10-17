@@ -5,17 +5,17 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, blue, green, red, yellow);
+    background: linear-gradient(90deg, rgb(52, 52, 162), rgb(13, 143, 13), rgb(159, 109, 16), rgb(225, 225, 10));
     background-size: 400% 400%;
     animation: gradientAnimation 15s linear infinite;
-    margin: 0; /* Remove default body margin */
-    padding: 0; /* Remove default body padding */
+    margin: 0; 
+    padding: 0; 
 }
 
-/* Set a dark background for sections */
+
 section {
-    background-color: #333; /* Dark background color */
-    color: #fff; /* Text color for sections */
+    background-color: #333; 
+    color: #fff;
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
@@ -84,9 +84,9 @@ nav a {
     
 }
 .project-content {
-    display: flex; /* Use flexbox to align items horizontally */
-    align-items: center; /* Center items vertically within the container */
-    text-align: left; /* Adjust text alignment if necessary */
+    display: flex; 
+    align-items: center;
+    text-align: left; 
     flex-direction: row;
     
 }
@@ -94,8 +94,8 @@ nav a {
 .project img {
     max-width: 100%;
     height: auto;
-    width: 200px; /* Adjust the width to your desired size */
-    margin-right: 10px; /* Add some spacing between the image and title */
+    width: 200px; 
+    margin-right: 10px;
     margin-top: 20px;
 }
 
